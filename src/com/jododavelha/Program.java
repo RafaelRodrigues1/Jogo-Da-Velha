@@ -28,8 +28,7 @@ public class Program extends javax.swing.JFrame {
         x8.setVisible(false);       
         b9.setVisible(false);
         x9.setVisible(false);
-        Velha.primeiraJogada(JOptionPane.showConfirmDialog(null, "Primeira jogada do X?", "Primeira jogada", JOptionPane.YES_NO_OPTION));
-        
+        Velha.primeiraJogada(JOptionPane.showConfirmDialog(null, "Primeira jogada do X?", "Primeira jogada", JOptionPane.YES_NO_OPTION));       
     }
 
     @SuppressWarnings("unchecked")
@@ -357,7 +356,18 @@ public class Program extends javax.swing.JFrame {
 
     
     private void lbl3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl3MouseClicked
-        
+        if(Velha.verificaCampo(Velha.getCampo3())){
+            if(Velha.verificaJogada()){
+                x3.setVisible(true);
+                X.setX3(1);
+               
+            }else{
+                b3.setVisible(true);
+                B.setB3(1);                
+            }
+             Velha.setCampo3(1);
+             Velha.verificaEmpate();
+        }
     }//GEN-LAST:event_lbl3MouseClicked
 
     private void lbl1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl1MouseClicked
@@ -371,36 +381,114 @@ public class Program extends javax.swing.JFrame {
                 B.setB1(1);                
             }
              Velha.setCampo1(1);
+             Velha.verificaEmpate();
         }
         
     }//GEN-LAST:event_lbl1MouseClicked
 
     private void lbl2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl2MouseClicked
-        
+        if(Velha.verificaCampo(Velha.getCampo2())){
+            if(Velha.verificaJogada()){
+                x2.setVisible(true);
+                X.setX2(1);
+               
+            }else{
+                b2.setVisible(true);
+                B.setB2(1);                
+            }
+             Velha.setCampo2(1);
+             Velha.verificaEmpate();
+        }
     }//GEN-LAST:event_lbl2MouseClicked
 
     private void lbl6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl6MouseClicked
-        
+        if(Velha.verificaCampo(Velha.getCampo6())){
+            if(Velha.verificaJogada()){
+                x6.setVisible(true);
+                X.setX6(1);
+               
+            }else{
+                b6.setVisible(true);
+                B.setB6(1);                
+            }
+             Velha.setCampo6(1);
+             Velha.verificaEmpate();
+        }
     }//GEN-LAST:event_lbl6MouseClicked
 
     private void lbl9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl9MouseClicked
-        
+        if(Velha.verificaCampo(Velha.getCampo9())){
+            if(Velha.verificaJogada()){
+                x9.setVisible(true);
+                X.setX9(1);
+               
+            }else{
+                b9.setVisible(true);
+                B.setB9(1);                
+            }
+             Velha.setCampo9(1);
+             Velha.verificaEmpate();
+        }
     }//GEN-LAST:event_lbl9MouseClicked
 
     private void lbl5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl5MouseClicked
-        
+        if(Velha.verificaCampo(Velha.getCampo5())){
+            if(Velha.verificaJogada()){
+                x5.setVisible(true);
+                X.setX5(1);
+               
+            }else{
+                b5.setVisible(true);
+                B.setB5(1);                
+            }
+             Velha.setCampo5(1);
+             Velha.verificaEmpate();
+        }
     }//GEN-LAST:event_lbl5MouseClicked
 
     private void lbl8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl8MouseClicked
-       
+       if(Velha.verificaCampo(Velha.getCampo8())){
+            if(Velha.verificaJogada()){
+                x8.setVisible(true);
+                X.setX8(1);
+               
+            }else{
+                b8.setVisible(true);
+                B.setB8(1);                
+            }
+             Velha.setCampo8(1);
+             Velha.verificaEmpate();
+        }
     }//GEN-LAST:event_lbl8MouseClicked
 
     private void lbl7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl7MouseClicked
-        
+        if(Velha.verificaCampo(Velha.getCampo7())){
+            if(Velha.verificaJogada()){
+                x7.setVisible(true);
+                X.setX7(1);
+               
+            }else{
+                b7.setVisible(true);
+                B.setB7(1);                
+            }
+             Velha.setCampo7(1);
+             Velha.verificaEmpate();
+        }
     }//GEN-LAST:event_lbl7MouseClicked
 
     private void lbl4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl4MouseClicked
-        
+        if(Velha.verificaCampo(Velha.getCampo4())){
+            if(Velha.verificaJogada()){
+                x4.setVisible(true);
+                X.setX4(1);
+               
+            }else{
+                b4.setVisible(true);
+                B.setB4(1);                
+            }
+             Velha.setCampo4(1);
+             Velha.verificaEmpate();
+        }
     }//GEN-LAST:event_lbl4MouseClicked
 
     /**

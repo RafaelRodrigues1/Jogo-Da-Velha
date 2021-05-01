@@ -57,7 +57,9 @@ public abstract class Velha {
            if(campo1 == 1 && campo2 == 1 && campo3 == 1 && campo4 == 1 && campo5 == 1 && 
                 campo6 == 1 && campo7 == 1 && campo8 == 1 && campo9 == 1){
             JOptionPane.showMessageDialog(null, "EMPATE!", "Empate", 1);
+            System.exit(0);
             } 
+            
         }    
     }
     

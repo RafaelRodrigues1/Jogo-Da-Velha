@@ -22,6 +22,7 @@ public class B {
                 b2==1 && b5==1 && b8==1 || b3==1 && b6==1 && b9==1 || b1==1 && b5==1 && b9==1 || b3==1 && b5==1 && b7==1){
             JOptionPane.showMessageDialog(null, "Bola ganhou!", "Vencedor", 1);
             Velha.vencedor();
+            System.exit(0);
         }
     }
 
