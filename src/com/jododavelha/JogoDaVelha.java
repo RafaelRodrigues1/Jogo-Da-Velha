@@ -35,15 +35,17 @@ public class JogoDaVelha extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
+        java.awt.GridBagConstraints gridBagConstraints;
 
-        lbl00 = new javax.swing.JLabel();
-        lbl01 = new javax.swing.JLabel();
-        lbl12 = new javax.swing.JLabel();
-        lbl22 = new javax.swing.JLabel();
-        lbl11 = new javax.swing.JLabel();
-        lbl21 = new javax.swing.JLabel();
-        lbl20 = new javax.swing.JLabel();
-        lbl10 = new javax.swing.JLabel();
+        lbl1 = new javax.swing.JLabel();
+        lbl2 = new javax.swing.JLabel();
+        lbl3 = new javax.swing.JLabel();
+        lbl4 = new javax.swing.JLabel();
+        lbl5 = new javax.swing.JLabel();
+        lbl6 = new javax.swing.JLabel();
+        lbl7 = new javax.swing.JLabel();
+        lbl8 = new javax.swing.JLabel();
+        lbl9 = new javax.swing.JLabel();
         x00 = new javax.swing.JLabel();
         x01 = new javax.swing.JLabel();
         x10 = new javax.swing.JLabel();
@@ -59,7 +61,6 @@ public class JogoDaVelha extends javax.swing.JFrame {
         bola10 = new javax.swing.JLabel();
         bola11 = new javax.swing.JLabel();
         bola12 = new javax.swing.JLabel();
-        lbl02 = new javax.swing.JLabel();
         bola02 = new javax.swing.JLabel();
         bola00 = new javax.swing.JLabel();
         x02 = new javax.swing.JLabel();
@@ -67,127 +68,289 @@ public class JogoDaVelha extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Jogo da velha");
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().setLayout(new java.awt.GridBagLayout());
 
-        lbl00.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lbl00MouseClicked(evt);
+                lbl1MouseClicked(evt);
             }
         });
-        getContentPane().add(lbl00, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 60, 40, 40));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipadx = 40;
+        gridBagConstraints.ipady = 40;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(60, 70, 0, 0);
+        getContentPane().add(lbl1, gridBagConstraints);
 
-        lbl01.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lbl01MouseClicked(evt);
+                lbl2MouseClicked(evt);
             }
         });
-        getContentPane().add(lbl01, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 60, 40, 40));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipadx = 40;
+        gridBagConstraints.ipady = 40;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(60, 20, 0, 0);
+        getContentPane().add(lbl2, gridBagConstraints);
 
-        lbl12.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lbl12MouseClicked(evt);
+                lbl3MouseClicked(evt);
             }
         });
-        getContentPane().add(lbl12, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 120, 40, 40));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipadx = 40;
+        gridBagConstraints.ipady = 40;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(60, 20, 0, 0);
+        getContentPane().add(lbl3, gridBagConstraints);
 
-        lbl22.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lbl22MouseClicked(evt);
+                lbl4MouseClicked(evt);
             }
         });
-        getContentPane().add(lbl22, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 170, 40, 40));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.ipadx = 40;
+        gridBagConstraints.ipady = 40;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(20, 70, 0, 0);
+        getContentPane().add(lbl4, gridBagConstraints);
 
-        lbl11.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lbl11MouseClicked(evt);
+                lbl5MouseClicked(evt);
             }
         });
-        getContentPane().add(lbl11, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 120, 40, 40));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.ipadx = 40;
+        gridBagConstraints.ipady = 40;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(20, 20, 0, 0);
+        getContentPane().add(lbl5, gridBagConstraints);
 
-        lbl21.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lbl21MouseClicked(evt);
+                lbl6MouseClicked(evt);
             }
         });
-        getContentPane().add(lbl21, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 170, 40, 40));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.ipadx = 40;
+        gridBagConstraints.ipady = 40;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(20, 20, 0, 0);
+        getContentPane().add(lbl6, gridBagConstraints);
 
-        lbl20.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lbl20MouseClicked(evt);
+                lbl7MouseClicked(evt);
             }
         });
-        getContentPane().add(lbl20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 170, 40, 40));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.ipadx = 40;
+        gridBagConstraints.ipady = 40;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(10, 70, 0, 0);
+        getContentPane().add(lbl7, gridBagConstraints);
 
-        lbl10.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lbl10MouseClicked(evt);
+                lbl8MouseClicked(evt);
             }
         });
-        getContentPane().add(lbl10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 120, 40, 40));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.ipadx = 40;
+        gridBagConstraints.ipady = 40;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(10, 20, 0, 0);
+        getContentPane().add(lbl8, gridBagConstraints);
+
+        lbl9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lbl9MouseClicked(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.ipadx = 40;
+        gridBagConstraints.ipady = 40;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(10, 20, 0, 0);
+        getContentPane().add(lbl9, gridBagConstraints);
 
         x00.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/x.png"))); // NOI18N
-        getContentPane().add(x00, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 60, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(60, 70, 0, 0);
+        getContentPane().add(x00, gridBagConstraints);
 
         x01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/x.png"))); // NOI18N
-        getContentPane().add(x01, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 60, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(60, 20, 0, 0);
+        getContentPane().add(x01, gridBagConstraints);
 
         x10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/x.png"))); // NOI18N
-        getContentPane().add(x10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 120, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(20, 70, 0, 0);
+        getContentPane().add(x10, gridBagConstraints);
 
         x11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/x.png"))); // NOI18N
-        getContentPane().add(x11, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 120, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(20, 20, 0, 0);
+        getContentPane().add(x11, gridBagConstraints);
 
         x22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/x.png"))); // NOI18N
-        getContentPane().add(x22, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 170, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(10, 20, 0, 0);
+        getContentPane().add(x22, gridBagConstraints);
 
         x20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/x.png"))); // NOI18N
-        getContentPane().add(x20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 170, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(10, 70, 0, 0);
+        getContentPane().add(x20, gridBagConstraints);
 
         x21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/x.png"))); // NOI18N
-        getContentPane().add(x21, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 170, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(10, 20, 0, 0);
+        getContentPane().add(x21, gridBagConstraints);
 
         x12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/x.png"))); // NOI18N
-        getContentPane().add(x12, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 120, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(20, 20, 0, 0);
+        getContentPane().add(x12, gridBagConstraints);
 
         bola20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/bola.png"))); // NOI18N
-        getContentPane().add(bola20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 170, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(10, 70, 0, 0);
+        getContentPane().add(bola20, gridBagConstraints);
 
         bola21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/bola.png"))); // NOI18N
-        getContentPane().add(bola21, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 170, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(10, 20, 0, 0);
+        getContentPane().add(bola21, gridBagConstraints);
 
         bola22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/bola.png"))); // NOI18N
-        getContentPane().add(bola22, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 170, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(10, 20, 0, 0);
+        getContentPane().add(bola22, gridBagConstraints);
 
         bola01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/bola.png"))); // NOI18N
-        getContentPane().add(bola01, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 60, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(60, 20, 0, 0);
+        getContentPane().add(bola01, gridBagConstraints);
 
         bola10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/bola.png"))); // NOI18N
-        getContentPane().add(bola10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 120, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(20, 70, 0, 0);
+        getContentPane().add(bola10, gridBagConstraints);
 
         bola11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/bola.png"))); // NOI18N
-        getContentPane().add(bola11, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 120, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(20, 20, 0, 0);
+        getContentPane().add(bola11, gridBagConstraints);
 
         bola12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/bola.png"))); // NOI18N
-        getContentPane().add(bola12, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 120, -1, -1));
-
-        lbl02.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lbl02MouseClicked(evt);
-            }
-        });
-        getContentPane().add(lbl02, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 60, 40, 40));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(20, 20, 0, 0);
+        getContentPane().add(bola12, gridBagConstraints);
 
         bola02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/bola.png"))); // NOI18N
-        getContentPane().add(bola02, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 60, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(60, 20, 0, 0);
+        getContentPane().add(bola02, gridBagConstraints);
 
         bola00.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/bola.png"))); // NOI18N
-        getContentPane().add(bola00, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 60, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(60, 70, 0, 0);
+        getContentPane().add(bola00, gridBagConstraints);
 
         x02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/x.png"))); // NOI18N
-        getContentPane().add(x02, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 60, -1, -1));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(60, 20, 0, 0);
+        getContentPane().add(x02, gridBagConstraints);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/jododavelha/imagens/jgvelha.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 30, 214, 209));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.gridheight = 4;
+        gridBagConstraints.ipadx = 14;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(30, 50, 48, 63);
+        getContentPane().add(jLabel1, gridBagConstraints);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -218,7 +381,7 @@ public class JogoDaVelha extends javax.swing.JFrame {
         }
     }
     
-    private void lbl02MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl02MouseClicked
+    private void lbl3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl3MouseClicked
         if(jogou02 == 1){
             aviso();
         }else if(vez == 1 || vez == 2){
@@ -235,9 +398,9 @@ public class JogoDaVelha extends javax.swing.JFrame {
             verificaX(jogX00, jogX01, jogX02, jogX10, jogX11, jogX12, jogX20, jogX21, jogX22);
         }
         verificaEmpate(jogou00, jogou01, jogou02, jogou10, jogou11, jogou12, jogou20, jogou21, jogou22);
-    }//GEN-LAST:event_lbl02MouseClicked
+    }//GEN-LAST:event_lbl3MouseClicked
 
-    private void lbl00MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl00MouseClicked
+    private void lbl1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl1MouseClicked
         if(jogou00 == 1){
             aviso();
         }
@@ -255,9 +418,9 @@ public class JogoDaVelha extends javax.swing.JFrame {
             verificaX(jogX00, jogX01, jogX02, jogX10, jogX11, jogX12, jogX20, jogX21, jogX22);
         }
         verificaEmpate(jogou00, jogou01, jogou02, jogou10, jogou11, jogou12, jogou20, jogou21, jogou22);
-    }//GEN-LAST:event_lbl00MouseClicked
+    }//GEN-LAST:event_lbl1MouseClicked
 
-    private void lbl01MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl01MouseClicked
+    private void lbl2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl2MouseClicked
         if(jogou01 == 1){
             aviso();
         }
@@ -275,9 +438,9 @@ public class JogoDaVelha extends javax.swing.JFrame {
             verificaX(jogX00, jogX01, jogX02, jogX10, jogX11, jogX12, jogX20, jogX21, jogX22);
         }
         verificaEmpate(jogou00, jogou01, jogou02, jogou10, jogou11, jogou12, jogou20, jogou21, jogou22);
-    }//GEN-LAST:event_lbl01MouseClicked
+    }//GEN-LAST:event_lbl2MouseClicked
 
-    private void lbl12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl12MouseClicked
+    private void lbl6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl6MouseClicked
         if(jogou12 == 1){
             aviso();
         }
@@ -295,9 +458,9 @@ public class JogoDaVelha extends javax.swing.JFrame {
             verificaX(jogX00, jogX01, jogX02, jogX10, jogX11, jogX12, jogX20, jogX21, jogX22);
         }
         verificaEmpate(jogou00, jogou01, jogou02, jogou10, jogou11, jogou12, jogou20, jogou21, jogou22);
-    }//GEN-LAST:event_lbl12MouseClicked
+    }//GEN-LAST:event_lbl6MouseClicked
 
-    private void lbl22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl22MouseClicked
+    private void lbl9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl9MouseClicked
         if(jogou22 == 1){
             aviso();
         }
@@ -315,9 +478,9 @@ public class JogoDaVelha extends javax.swing.JFrame {
             verificaX(jogX00, jogX01, jogX02, jogX10, jogX11, jogX12, jogX20, jogX21, jogX22);
         }
         verificaEmpate(jogou00, jogou01, jogou02, jogou10, jogou11, jogou12, jogou20, jogou21, jogou22);
-    }//GEN-LAST:event_lbl22MouseClicked
+    }//GEN-LAST:event_lbl9MouseClicked
 
-    private void lbl11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl11MouseClicked
+    private void lbl5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl5MouseClicked
         if(jogou11 == 1){
             aviso();
         }
@@ -335,9 +498,9 @@ public class JogoDaVelha extends javax.swing.JFrame {
             verificaX(jogX00, jogX01, jogX02, jogX10, jogX11, jogX12, jogX20, jogX21, jogX22);
         }
         verificaEmpate(jogou00, jogou01, jogou02, jogou10, jogou11, jogou12, jogou20, jogou21, jogou22);
-    }//GEN-LAST:event_lbl11MouseClicked
+    }//GEN-LAST:event_lbl5MouseClicked
 
-    private void lbl21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl21MouseClicked
+    private void lbl8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl8MouseClicked
         if(jogou21 == 1){
             aviso();
         }
@@ -355,9 +518,9 @@ public class JogoDaVelha extends javax.swing.JFrame {
             verificaX(jogX00, jogX01, jogX02, jogX10, jogX11, jogX12, jogX20, jogX21, jogX22);
         }
         verificaEmpate(jogou00, jogou01, jogou02, jogou10, jogou11, jogou12, jogou20, jogou21, jogou22);
-    }//GEN-LAST:event_lbl21MouseClicked
+    }//GEN-LAST:event_lbl8MouseClicked
 
-    private void lbl20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl20MouseClicked
+    private void lbl7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl7MouseClicked
         if(jogou20 == 1){
             aviso();
         }
@@ -375,9 +538,9 @@ public class JogoDaVelha extends javax.swing.JFrame {
             verificaX(jogX00, jogX01, jogX02, jogX10, jogX11, jogX12, jogX20, jogX21, jogX22);
         }
         verificaEmpate(jogou00, jogou01, jogou02, jogou10, jogou11, jogou12, jogou20, jogou21, jogou22);
-    }//GEN-LAST:event_lbl20MouseClicked
+    }//GEN-LAST:event_lbl7MouseClicked
 
-    private void lbl10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl10MouseClicked
+    private void lbl4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl4MouseClicked
         if(jogou10 == 1){
             aviso();
         }
@@ -395,7 +558,7 @@ public class JogoDaVelha extends javax.swing.JFrame {
             verificaX(jogX00, jogX01, jogX02, jogX10, jogX11, jogX12, jogX20, jogX21, jogX22);
         }
         verificaEmpate(jogou00, jogou01, jogou02, jogou10, jogou11, jogou12, jogou20, jogou21, jogou22);
-    }//GEN-LAST:event_lbl10MouseClicked
+    }//GEN-LAST:event_lbl4MouseClicked
 
     /**
      * @param args the command line arguments
@@ -446,15 +609,15 @@ public class JogoDaVelha extends javax.swing.JFrame {
     private javax.swing.JLabel bola21;
     private javax.swing.JLabel bola22;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel lbl00;
-    private javax.swing.JLabel lbl01;
-    private javax.swing.JLabel lbl02;
-    private javax.swing.JLabel lbl10;
-    private javax.swing.JLabel lbl11;
-    private javax.swing.JLabel lbl12;
-    private javax.swing.JLabel lbl20;
-    private javax.swing.JLabel lbl21;
-    private javax.swing.JLabel lbl22;
+    private javax.swing.JLabel lbl1;
+    private javax.swing.JLabel lbl2;
+    private javax.swing.JLabel lbl3;
+    private javax.swing.JLabel lbl4;
+    private javax.swing.JLabel lbl5;
+    private javax.swing.JLabel lbl6;
+    private javax.swing.JLabel lbl7;
+    private javax.swing.JLabel lbl8;
+    private javax.swing.JLabel lbl9;
     private javax.swing.JLabel x00;
     private javax.swing.JLabel x01;
     private javax.swing.JLabel x02;
